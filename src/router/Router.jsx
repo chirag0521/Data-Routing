@@ -38,7 +38,7 @@ export const router = createBrowserRouter([
                         element:<Login />
                     },
                     {
-                        path:'register',
+                        path:'register/:id', // register tab khule jab id ho
                         element:<Register />
                     }
                 ]
